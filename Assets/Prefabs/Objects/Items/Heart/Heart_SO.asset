@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a79149ff24f9614c81f9a05c3d1145e, type: 3}
+  m_Name: Heart_SO
+  m_EditorClassIdentifier: 
+  preParticle: {fileID: 5264235368501678756, guid: ec39a0c7491573443b17e3e02a1c17d5, type: 3}
+  spawnChance: 100
+  changeLife: 1
+  changePlayerSpeed: 0
+  moveSpeed: 4
+  changeScorePointsPlayer: 0
+  changeScorePointsGround: 0
+  spawnObject: {fileID: 0}
+  description: The Heart heals up to one Heart. It cant go over the activea heart
+    limit. When you are Full of Herts it gives you a Multiply
+  cardSprite: {fileID: 1895094603, guid: 09eaea3615fe0664990ac7a31f8556f7, type: 3}
