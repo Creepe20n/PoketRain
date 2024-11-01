@@ -8,8 +8,4 @@ public class SpaceEnemy : MonoBehaviour
     [SerializeField] float movmentSpeed;
     [HideInInspector] public float goToY;
     [HideInInspector] public SpaceShip_event spaceShip_Event;
-
-
-
-
 }
