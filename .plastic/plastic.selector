@@ -1,4 +1,0 @@
-repository "Poket Rain Final Editon@niclas270106@cloud"
-  path "/"
-    br "/main"
-    co "/main"
