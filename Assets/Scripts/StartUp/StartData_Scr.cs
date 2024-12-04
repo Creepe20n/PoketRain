@@ -4,5 +4,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName ="new StartUpData",menuName = "Back/StartUpData")]
 public class StartData_Scr : ScriptableObject
 {
-    public List<Transform> SpawnPoints = new();
+    public List<Vector2> SpawnPoints = new();
 }
