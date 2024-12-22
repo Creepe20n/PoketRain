@@ -19,9 +19,9 @@ public class StartUpScript : MonoBehaviour
 
         float hight = Camera.main.transform.position.y + (CameraData.GetHight()/2);
 
-        float plusX = ConvertPosition.X_Distance(new Vector2(startX,0),new Vector2(endX,0)) / points;
+        float plusX = ConvertPosition.X_Distance(new Vector2(startX,0),new Vector2(endX-0.2f,0)) / points;
 
-        float activeX = startX;
+        float activeX = startX+0.2f;
 
         for(int i = 0;i < vecPoints.Length;i++) {
             vecPoints[i] = new Vector2(activeX,hight);

@@ -2,10 +2,10 @@ using UnityEngine;
 
 public class EventBase:MonoBehaviour, I_Manager {
     public virtual void OnEventEnd() {
-        throw new System.NotImplementedException();
+        gameObject.SetActive(false);
     }
 
-    public virtual void OnEventStart() {
+    public virtual void OnEventStart(GameObject hitObject,GameManager gameManager) {
         throw new System.NotImplementedException();
     }
 
