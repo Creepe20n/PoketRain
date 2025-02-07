@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
 
         onGameStartEvents.Invoke();
         blockGameStart = true;
+
         print("Game Start Finish");
     }
 
